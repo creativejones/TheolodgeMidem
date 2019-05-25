@@ -1393,9 +1393,24 @@ body {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #149dcc;
 }
-#custom-html-2 {
-  /* Type valid CSS here */
+.cid-rrv3kvNUFi {
+  background: #232323;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-#custom-html-2 .my-image {
+.cid-rrv3kvNUFi .image-block {
+  margin: auto;
+}
+.cid-rrv3kvNUFi figcaption {
+  position: relative;
+}
+.cid-rrv3kvNUFi figcaption div {
+  position: absolute;
+  bottom: 0;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rrv3kvNUFi .image-block {
+    width: 100% !important;
+  }
 }
